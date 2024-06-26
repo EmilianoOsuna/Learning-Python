@@ -27,7 +27,7 @@ def rescaleFrame(frame, scale = 0.50):
 
 # VISUALIZAR UNA IMAGEN EN OTRA VENTANA
 
-img = cv.imread("Hanna\IMG_20230222_120954.jpg") #Convierte una imagen a un arreglo de pixeles
+img = cv.imread("Hanna\IMG_20230222_120954.jpg ") #Convierte una imagen a un arreglo de pixeles
 resized_img = rescaleFrame(img)
 cv.imshow("Hanna", resized_img) #El parámetro es el nombre de la ventana y el arreglo de pixeles
 cv.waitKey(0) #Keybind para esperar que se presione una tecla (SI HAY UN CERO ES TIEMPO INFINITO)
